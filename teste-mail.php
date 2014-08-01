@@ -15,8 +15,9 @@ $mail->setFrom('cadastro@trip.com.br', 'Revista Trip');
 //Set an alternative reply-to address
 $mail->addReplyTo('<cadastro@trip.com.br>', 'Cadastro');
 //Set who the message is to be sent to
-$mail->addAddress('cael@trip.com.br', 'Desenvolvedor');
 $mail->addAddress('rapahaeru@gmail.com', 'Desenvolvedor');
+$mail->addAddress('cael@trip.com.br', 'Desenvolvedor');
+
 //Set the subject line
 $mail->Subject = 'Ativando cadastro';
 //Read an HTML message body from an external file, convert referenced images to embedded,
