@@ -17,7 +17,7 @@ try {
 	$mail->SMTPAuth = true; // enable SMTP authentication
 	//$mail->SMTPSecure = "tls"; // sets the prefix to the servier
 	///$mail->Host = "smtp.gmail.com"; // sets GMAIL as the SMTP server
-	$mail->Port = 25; // set the SMTP port for the GMAIL server
+	$mail->Port = 587; // set the SMTP port for the GMAIL server
 	$mail->Username = "cadastro@trip.com.br";
 	$mail->Password = "c4n7m9";
 	$mail->addReplyTo('cadastro@trip.com.br', 'Cadastro');
